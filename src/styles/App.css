@@ -1,3 +1,31 @@
+#shape-creator , #shapes-holder{
+    margin: 10px;
+    padding: 10px;
+}
+
+#shape-creator{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#shapes-holder{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+select,button{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button{
+    background-color: palegreen;
+}
+
+
+
 .square{
     width: 75px;
     height: 75px;
